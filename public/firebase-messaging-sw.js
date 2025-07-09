@@ -47,10 +47,10 @@ self.addEventListener('notificationclick', function (event) {
 
   event.notification.close();
 
-  let targetUrl = event.notification.data?.url || 'https://hunarhub-io.netlify.app/';
+  let targetUrl = event.notification.data?.url || 'https://mapmates-io.netlify.app/';
 
   if (event.action === 'open_app') {
-    targetUrl = 'https://hunarhub-io.netlify.app/';
+    targetUrl = 'https://mapmates-io.netlify.app/';
   }
 
   event.waitUntil(

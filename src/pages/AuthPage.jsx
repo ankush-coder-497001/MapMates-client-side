@@ -58,7 +58,7 @@ export default function AuthPage() {
                       />
                     </svg>
                   </div>
-                  <h1 className="text-2xl font-bold text-gradient-netflix">ChatGlass</h1>
+                  <h1 className="text-2xl font-bold text-gradient-netflix">MapMates</h1>
                 </div>
                 <p className="text-gray-300 text-xs">Premium glassmorphism chat platform</p>
               </div>
