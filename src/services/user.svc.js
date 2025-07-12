@@ -1,8 +1,8 @@
-const API_URL = import.meta.env.VITE_SERVER_URL + "/api" || "http://localhost:5001/api";
+const API_URL = import.meta.env.VITE_SERVER_URL || "http://localhost:5001";
 import axios from "axios";
 //create instance 
 const api = axios.create({
-  baseURL: API_URL,
+  baseURL: `${API_URL}/api`,
   headers: {
     "Content-Type": "application/json",
   },
